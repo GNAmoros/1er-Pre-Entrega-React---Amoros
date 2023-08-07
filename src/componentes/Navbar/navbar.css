@@ -1,0 +1,30 @@
+.navbarStyle {
+    background-color: #03318C;
+}
+
+.navTitle{
+    color: #F2EEB6;
+    font-size: 2.5rem;
+}
+
+.navType {
+    color: #A9BF04;
+    font-size: 1rem;
+}
+
+.navType:hover {
+    color: #F2EEB6;
+    background-color: #048ABF;
+    border-radius: 10px;
+}
+
+.navSearch {
+    background-color: #033E8C;
+    color: #A9BF04;
+    border-color: #A9BF04;
+}
+
+.navSearch:hover {
+    background-color: #048ABF;
+    border-color: #0477BF;
+}
