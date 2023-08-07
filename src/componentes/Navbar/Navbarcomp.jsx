@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { FaShoppingCart } from 'react-icons/fa';
+import { Navbar, Container, Nav, Form, Button } from 'react-bootstrap';
+import CartWidget from '../cartWidget/cartWidget';
 
 export default class Navbarcomp extends Component {
     render() {
@@ -30,14 +26,14 @@ export default class Navbarcomp extends Component {
                                     className="me-2"
                                     aria-label="Search"
                                 />
-                                <Button variant="outline-success">Search</Button>
+                                <Button variant="outline-success">Buscar</Button>
                             </Form>
-                            {/* Cart Icon */}
-                            <FaShoppingCart style={{ fontSize: '1.5rem', marginLeft: '15px' }} />
+                            {/* CartWidget */}
+                            <CartWidget addToCart={this.addToCart} removeFromCart={this.removeFromCart} />
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
             </div>
-        )
+        );
     }
 }
