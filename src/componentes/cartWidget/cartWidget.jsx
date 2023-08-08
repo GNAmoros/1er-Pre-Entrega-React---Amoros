@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
+import './cartWidget.css';
 
 export default function CartWidget() {
     const [cartItems, setCartItems] = useState([]); 
