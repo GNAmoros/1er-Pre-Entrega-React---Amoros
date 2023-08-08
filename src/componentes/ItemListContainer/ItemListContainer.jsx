@@ -5,7 +5,7 @@ function ItemListContainer() {
     const greeting = 'Bienvenido';
   
     return (
-      <div>
+      <div className="greeting">
         <h1>{greeting}!</h1>
       </div>
     );

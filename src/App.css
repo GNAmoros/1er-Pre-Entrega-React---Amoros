@@ -1,0 +1,9 @@
+.App {
+    background-image: url(./img/IMG-20221116-WA0124.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
