@@ -1,7 +1,7 @@
 import './ItemListContainer.css';
 
 
-function ItemListContainer() {
+function ItemListContainer(props) {
     const greeting = 'Bienvenido';
   
     return (
