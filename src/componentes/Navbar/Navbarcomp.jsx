@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Container, Nav, Form, Button } from 'react-bootstrap';
-import CartWidget from '../cartWidget/cartWidget';
+import CartWidget from '../cartWidget/cartWidget'; // Change the import statement
 import './navbar.css';
 
 export default class Navbarcomp extends Component {
@@ -30,7 +30,7 @@ export default class Navbarcomp extends Component {
                                 <Button variant="outline-success" className="navSearch">Buscar</Button>
                             </Form>
                             {/* CartWidget */}
-                            <CartWidget addToCart={this.addToCart} removeFromCart={this.removeFromCart} />
+                            <CartWidget />
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

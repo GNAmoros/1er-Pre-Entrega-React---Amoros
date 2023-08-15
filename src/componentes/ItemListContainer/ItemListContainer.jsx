@@ -1,14 +1,11 @@
 import './ItemListContainer.css';
 
-
-function ItemListContainer(props) {
-    const greeting = 'Bienvenido';
-  
+function ItemListContainer({ greeting }) {
     return (
-      <div className="greeting">
-        <h1>{greeting}!</h1>
-      </div>
+        <div className="greeting">
+            <h1>{greeting}!</h1>
+        </div>
     );
-  }
-  
-  export default ItemListContainer;
+}
+
+export default ItemListContainer;

@@ -1,4 +1,9 @@
 .cart-widget {
     color: #F2EEB6;
     margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.cart-item-count {
+    color: #F2EEB6;
 }
